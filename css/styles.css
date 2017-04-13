@@ -328,3 +328,27 @@ body {font-family: Verdana,sans-serif;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+.stream {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+.player {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -700px;
+}
+.chat {
+  top: 100px;
+  right: 100px;
+  position: absolute;
+}
+
+.sign {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -190px;
+}
